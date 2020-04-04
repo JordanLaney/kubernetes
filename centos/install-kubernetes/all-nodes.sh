@@ -1,8 +1,5 @@
 # Run this on every machine in the system.
 
-#must be sudo
-sudo su
-
 #NEVER DO THIS IN PRODUCTION
 #disable SELinux
 setenforce 0
@@ -33,7 +30,7 @@ systemctl status docker
 docker info | grep -i cgroup
 
 #add the kubernetes repo
-djflskdjflksdjflkat <<EOF > /etc/yum.repos.d/kubernetes.repo
+cat <<EOF > /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
 baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
