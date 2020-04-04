@@ -1,0 +1,5 @@
+'[{
+  "master-node-user": "cloud_user@foomasri1c.mylabserver.com",
+  "node-zero-user": "cloud_user@foomasri2c.mylabserver.com",
+  "node-one-user": "cloud_user@foomasri3c.mylabserver.com"
+}]'
