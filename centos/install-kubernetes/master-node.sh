@@ -1,7 +1,3 @@
-#ssh into master
-masterNode=$1
-ssh masterNode
-
 #initiate cluster using the ip range for Flannel
 kubeadm init --pod-network-cidr=10.244.0.0/16
 

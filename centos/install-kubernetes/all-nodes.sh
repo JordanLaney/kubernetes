@@ -1,10 +1,5 @@
 # Run this on every machine in the system.
 
-#ssh into machine
-#need user@ip host as argument $1
-targetMachine=$1
-ssh $targetMachine
-
 #must be sudo
 sudo su
 
